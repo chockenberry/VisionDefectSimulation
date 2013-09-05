@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44204EFE177CEB0500E5F5C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44204EFD177CEB0500E5F5C2 /* Cocoa.framework */; };
+		44204F08177CEB0500E5F5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44204F06177CEB0500E5F5C2 /* InfoPlist.strings */; };
+		44204F0A177CEB0500E5F5C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44204F09177CEB0500E5F5C2 /* main.m */; };
+		44204F0E177CEB0500E5F5C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44204F0C177CEB0500E5F5C2 /* Credits.rtf */; };
+		44204F11177CEB0500E5F5C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44204F10177CEB0500E5F5C2 /* AppDelegate.m */; };
+		44204F14177CEB0500E5F5C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44204F12177CEB0500E5F5C2 /* MainMenu.xib */; };
+		44204F1C177CF40100E5F5C2 /* VisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44204F1B177CF40100E5F5C2 /* VisionView.m */; };
+		44204F1F177CF4AA00E5F5C2 /* VisionDefectSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44204F1E177CF4AA00E5F5C2 /* VisionDefectSimulation.m */; };
+		44204F21177CF89A00E5F5C2 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44204F20177CF89A00E5F5C2 /* Quartz.framework */; };
+		44204F23177D06A200E5F5C2 /* Colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 44204F22177D06A200E5F5C2 /* Colors.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44204EFA177CEB0500E5F5C2 /* Retination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44204EFD177CEB0500E5F5C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		44204F00177CEB0500E5F5C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		44204F01177CEB0500E5F5C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		44204F02177CEB0500E5F5C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44204F05177CEB0500E5F5C2 /* Retination-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retination-Info.plist"; sourceTree = "<group>"; };
+		44204F07177CEB0500E5F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44204F09177CEB0500E5F5C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44204F0B177CEB0500E5F5C2 /* Retination-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retination-Prefix.pch"; sourceTree = "<group>"; };
+		44204F0D177CEB0500E5F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		44204F0F177CEB0500E5F5C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44204F10177CEB0500E5F5C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44204F13177CEB0500E5F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44204F1A177CF40100E5F5C2 /* VisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionView.h; sourceTree = "<group>"; };
+		44204F1B177CF40100E5F5C2 /* VisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionView.m; sourceTree = "<group>"; };
+		44204F1D177CF4AA00E5F5C2 /* VisionDefectSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionDefectSimulation.h; sourceTree = "<group>"; };
+		44204F1E177CF4AA00E5F5C2 /* VisionDefectSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionDefectSimulation.m; sourceTree = "<group>"; };
+		44204F20177CF89A00E5F5C2 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		44204F22177D06A200E5F5C2 /* Colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Colors.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44204EF7177CEB0500E5F5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44204F21177CF89A00E5F5C2 /* Quartz.framework in Frameworks */,
+				44204EFE177CEB0500E5F5C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44204EF1177CEB0500E5F5C2 = {
+			isa = PBXGroup;
+			children = (
+				44204F03177CEB0500E5F5C2 /* Retination */,
+				44204EFC177CEB0500E5F5C2 /* Frameworks */,
+				44204EFB177CEB0500E5F5C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44204EFB177CEB0500E5F5C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44204EFA177CEB0500E5F5C2 /* Retination.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44204EFC177CEB0500E5F5C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44204EFD177CEB0500E5F5C2 /* Cocoa.framework */,
+				44204EFF177CEB0500E5F5C2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44204EFF177CEB0500E5F5C2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44204F00177CEB0500E5F5C2 /* AppKit.framework */,
+				44204F01177CEB0500E5F5C2 /* CoreData.framework */,
+				44204F02177CEB0500E5F5C2 /* Foundation.framework */,
+				44204F20177CF89A00E5F5C2 /* Quartz.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		44204F03177CEB0500E5F5C2 /* Retination */ = {
+			isa = PBXGroup;
+			children = (
+				44204F0F177CEB0500E5F5C2 /* AppDelegate.h */,
+				44204F10177CEB0500E5F5C2 /* AppDelegate.m */,
+				44204F12177CEB0500E5F5C2 /* MainMenu.xib */,
+				44204F04177CEB0500E5F5C2 /* Supporting Files */,
+				44204F1A177CF40100E5F5C2 /* VisionView.h */,
+				44204F1B177CF40100E5F5C2 /* VisionView.m */,
+				44204F1D177CF4AA00E5F5C2 /* VisionDefectSimulation.h */,
+				44204F1E177CF4AA00E5F5C2 /* VisionDefectSimulation.m */,
+				44204F22177D06A200E5F5C2 /* Colors.png */,
+			);
+			path = Retination;
+			sourceTree = "<group>";
+		};
+		44204F04177CEB0500E5F5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44204F05177CEB0500E5F5C2 /* Retination-Info.plist */,
+				44204F06177CEB0500E5F5C2 /* InfoPlist.strings */,
+				44204F09177CEB0500E5F5C2 /* main.m */,
+				44204F0B177CEB0500E5F5C2 /* Retination-Prefix.pch */,
+				44204F0C177CEB0500E5F5C2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44204EF9177CEB0500E5F5C2 /* Retination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44204F17177CEB0500E5F5C2 /* Build configuration list for PBXNativeTarget "Retination" */;
+			buildPhases = (
+				44204EF6177CEB0500E5F5C2 /* Sources */,
+				44204EF7177CEB0500E5F5C2 /* Frameworks */,
+				44204EF8177CEB0500E5F5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Retination;
+			productName = Retination;
+			productReference = 44204EFA177CEB0500E5F5C2 /* Retination.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44204EF2177CEB0500E5F5C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "The Iconfactory";
+			};
+			buildConfigurationList = 44204EF5177CEB0500E5F5C2 /* Build configuration list for PBXProject "Retination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44204EF1177CEB0500E5F5C2;
+			productRefGroup = 44204EFB177CEB0500E5F5C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44204EF9177CEB0500E5F5C2 /* Retination */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44204EF8177CEB0500E5F5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44204F08177CEB0500E5F5C2 /* InfoPlist.strings in Resources */,
+				44204F0E177CEB0500E5F5C2 /* Credits.rtf in Resources */,
+				44204F14177CEB0500E5F5C2 /* MainMenu.xib in Resources */,
+				44204F23177D06A200E5F5C2 /* Colors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44204EF6177CEB0500E5F5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44204F0A177CEB0500E5F5C2 /* main.m in Sources */,
+				44204F11177CEB0500E5F5C2 /* AppDelegate.m in Sources */,
+				44204F1C177CF40100E5F5C2 /* VisionView.m in Sources */,
+				44204F1F177CF4AA00E5F5C2 /* VisionDefectSimulation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44204F06177CEB0500E5F5C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44204F07177CEB0500E5F5C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44204F0C177CEB0500E5F5C2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44204F0D177CEB0500E5F5C2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		44204F12177CEB0500E5F5C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44204F13177CEB0500E5F5C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44204F15177CEB0500E5F5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44204F16177CEB0500E5F5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44204F18177CEB0500E5F5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retination/Retination-Prefix.pch";
+				INFOPLIST_FILE = "Retination/Retination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44204F19177CEB0500E5F5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retination/Retination-Prefix.pch";
+				INFOPLIST_FILE = "Retination/Retination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44204EF5177CEB0500E5F5C2 /* Build configuration list for PBXProject "Retination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44204F15177CEB0500E5F5C2 /* Debug */,
+				44204F16177CEB0500E5F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44204F17177CEB0500E5F5C2 /* Build configuration list for PBXNativeTarget "Retination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44204F18177CEB0500E5F5C2 /* Debug */,
+				44204F19177CEB0500E5F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44204EF2177CEB0500E5F5C2 /* Project object */;
+}
